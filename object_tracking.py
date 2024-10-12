@@ -23,7 +23,7 @@ def speech(text):
 model = YOLO('yolov8m.pt')  # Adjust to other variants like yolov8s.pt if needed
 
 # Open video file instead of webcam feed
-video_path = 'path_to_your_video.mp4'  # Replace with your video file path
+video_path = '2103099-sd_640_360_30fps.mp4'  # Replace with your video file path
 video = cv2.VideoCapture(video_path)
 
 # Check if the video was successfully opened
